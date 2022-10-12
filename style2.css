@@ -1,0 +1,300 @@
+
+*{ margin: 0; padding:0 ;
+
+}
+img{
+    max-width: 100%;
+}
+
+
+
+header#mainheader {
+    display: block;
+}
+
+.topheader {
+    display: block;
+    overflow: hidden;
+    background: black;
+    padding: 10px 0px;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.topleftinfo {
+    width: 585px;
+    float: left;
+}
+
+.toprightlink {
+    width: 585px;
+    float: right;
+}
+
+.topleftinfo ul li {
+    float: left;
+    display: block;
+}
+
+.topleftinfo ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.topleftinfo ul li a i {
+    margin-right: 5px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.toprightlink {
+    width: 585px;
+    float: right;
+}
+
+.toprightlink {
+    width: 585px;
+    float: right;
+}
+
+.toprightlink ul li {
+    float: left;
+    display: block;
+}
+
+.toprightlink ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.toprightlink ul li a i {
+    margin-right: 5px;
+    
+}
+.toprightlink ul {
+    list-style-type: none;float: right;
+}
+
+
+
+.logoposition {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.leftlogo {
+    width: 350px;
+    float: left;
+}
+
+.rightboxes {
+    width: 700px;
+    display: table;
+}
+
+.rbinner {
+    float: right;
+    margin-top: 25px;
+}
+
+.boxcontainer {
+    float: left;
+    display: block;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+
+.logoinner {
+    width: 87px;
+    padding: 15px 0px;
+}
+
+
+.boxcontainer:last-child {
+    background: #0df188;
+}
+
+.boxcontainer a{
+    color: white;
+}
+
+
+menu.primarymenue {
+    background: #613070;
+    width: 100%;
+    margin-top: -28px;
+    position: relative;
+}
+
+menu.primarymenue ul.pminner li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 16px;
+    border-radius: 3px;
+   /* border-right: 2px solid;*/
+}
+
+menu.primarymenue ul.pminner li {
+    float: left;
+    padding: 0px 100px;
+    list-style: none;
+}
+
+ul.pminner {
+    display: table;
+}
+
+
+.pminner li a:hover{
+    color: white;
+    background: black;
+}
+
+
+/*    drop down */
+
+
+
+
+menu.primarymenue ul.pminner li ul.submenue li{
+    float: none;
+    padding: 0px;
+}
+
+ul.submenue {
+    position: absolute;
+    z-index: 999;
+    background: #7e5656;
+    list-style: none;
+    width: 237px;
+     display: grid;
+    place-items: center;
+    transform: scaleY(0);
+    text-align : center;
+    transition: 0.5s;
+    transform-origin: top;
+
+}
+
+
+
+menu.primarymenue ul.pminner li:hover ul.submenue{
+    transform: scaleY(1);
+    display: block;
+}
+
+
+
+
+
+
+menu.primarymenue ul.pminner li ul.submenue li a:hover{
+    color: white;
+    background: black;
+    width: 200px;
+
+}
+
+/*    End Drop Down */
+
+
+
+.sectionTittle {
+    width: 250px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    margin-bottom  : 36px;
+
+}
+
+section {
+    padding: 10px 0pz;
+}
+.sectionTittle h2 {
+    font-size: 40px;
+    display: inline;
+    font-weight: 15px;
+}
+.boxsingleinner {
+     width: 258px;
+    float: left;
+    text-align: justify;
+    font-size: 19px;
+    margin-right: 84px;
+    position: relative;
+}
+
+.boxicon {
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+
+.boxdesc {
+    margin-top: 20px;
+}
+
+.box_readmore {
+    text-align: center;
+    margin-top: 15px;
+}
+.boxsingle {
+    width: 251px;
+    float: left;
+    font-size: 15px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    text-align: justify;
+    padding: 12px 48px;
+    background: orange;
+    /* font-size: 12px; */
+}
+footer#footer {
+    background: gray;
+    color: white;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+}
+
+.fboxsingle {
+    float: left;
+    width: 292px;
+}
+.footerboxcontent ul li {
+    list-style: none;
+}
+
+.footerboxcontent ul li a {
+    color: white;
+    text-decoration: none;
+}
+.fboxsingle h3 {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 7px;
+}
